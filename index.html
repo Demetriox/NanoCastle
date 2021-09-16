@@ -57,15 +57,16 @@
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
             <ul class="menu">
-                <li><a href="#pricing" class="nav-link">Nuestros Servicios</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#pricing" class="nav-link">Servicios</a></li>
+                <li><a href="#nosotros">Equipo</a></li>
             </ul>
         </nav>
         <!--   navbar -->
     </header>
     <!-- header ends -->
 
-    <main class="container z-container card" style="height: 48rem;">
+    <main class="container z-container card" style="height: 48rem;" id="inicio">
         <div class="top">
             <section class="hero container text-init">
                 <h1 class="hero-title-primary">Software creativo</h1>
@@ -76,8 +77,6 @@
                 </a>
                 <br>
                 <br>
-                <div class="hero-sub-critict">creatividad
-                    e innovación.</div>
             </section>
             <div class="hero-image img-init">
                 <img src="./Assets/smartphone.svg" alt="phone" class="img-inicio">
@@ -96,49 +95,64 @@
     <section class="pricing-container">
 
 
+        <div class="wrapper">
+            <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(./Assets/us/roket.jpg)">
+                            <div class="inner">
+                                <p>Mision</p>
+                                <span>Por que seremos</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p style="font-size: .9rem;">Ser la mejor empresa de desarrollo de software usando la
+                                    creatividad para generar
+                                    proyectos de alto impacto. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(./Assets/us/castle.jpg)">
+                            <div class="inner">
+                                <p>Vision</p>
+                                <span>Nos proyectamos</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p style="font-size: .9rem;">Ser un imperio de tecnología creativa que desarrolle
+                                    proyectos innovadores y
+                                    transforme a la sociedad para generar un cambio positivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(./Assets/us/creative.jpg)">
+                            <div class="inner">
+                                <p>Valores</p>
+                                <span>Lo que nos rige</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p style="font-size: .9rem;">Podemos mejorar la sociedad al crear proyectos que sean
+                                    eficientes y fiables a través
+                                    de nuestros valores, la empatía, la creatividad, el trabajo en equipo y sobre todo
+                                    la pasión por lo que hacemos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="tab-wrap">
-
-            <input type="radio" id="tab4" name="tabGroup2" class="tab" checked>
-            <label for="tab4">Mision</label>
-
-            <input type="radio" id="tab5" name="tabGroup2" class="tab">
-            <label for="tab5">Vision</label>
-
-            <input type="radio" id="tab6" name="tabGroup2" class="tab">
-            <label for="tab6">Valores</label>
-
-            <div class="tab__content">
-                <h3>Apples</h3>
-                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget,
-                    lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo,
-                    fringilla
-                    vel, aliquet nec, vulputate eget, arcu.</p>
             </div>
-
-            <div class="tab__content">
-                <h3>Oranges</h3>
-                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget,
-                    lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo,
-                    fringilla
-                    vel, aliquet nec, vulputate eget, arcu.</p>
-
-                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit.
-                    Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus
-                    blandit viverra.</p>
-            </div>
-
-            <div class="tab__content">
-                <h3>Bananas</h3>
-                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget,
-                    lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo,
-                    fringilla
-                    vel, aliquet nec, vulputate eget, arcu.</p>
-            </div>
-
-
         </div>
-
+        </div>
 
         <div id="pricing" class="pricing-title">
             <h2>Nuestros Servicios</h2>
@@ -148,6 +162,7 @@
             <div class="flex-item">
                 <ul class="package">
                     <li class="header">Paginas web</li>
+                    <img src="./images/palo.PNG" alt="paloverde">
                     <li class="features first-feat">Unlimited Updates</li>
                     <li class="features">100GB Storage</li>
                     <li class="features">Limited API Quota</li>
@@ -159,6 +174,7 @@
             <div class="flex-item">
                 <ul class="package">
                     <li class="header">Apps web</li>
+                    <img src="./Assets/webde.jpg" alt="paloverde">
                     <li class="features first-feat">Unlimited Updates</li>
                     <li class="features">100TB Storage</li>
                     <li class="features">Unlimited API Usage</li>
@@ -170,6 +186,7 @@
             <div class="flex-item">
                 <ul class="package">
                     <li class="header">Apps moviles</li>
+                    <img src="./images/appsmo.PNG" alt="paloverde">
                     <li class="features first-feat">Unlimited Updates</li>
                     <li class="features">100TB Storage</li>
                     <li class="features">Unlimited API Usage</li>
@@ -181,6 +198,7 @@
             <div class="flex-item">
                 <ul class="package">
                     <li class="header">Menus QR</li>
+                    <img src="./images/qr-code.png" alt="paloverde">
                     <li class="features first-feat">Priority Updates</li>
                     <li class="features">Unlimited Storage</li>
                     <li class="features">Team Features</li>
@@ -193,9 +211,24 @@
     </section>
 
     <!--  -->
-
+    <div class="container-gallery">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="./images/puesta.png" alt="Gallery image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="./Assets/dblue.png" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="./images/VetaTaller.PNG" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="./images/paloverde.PNG" alt="Gallery image 3" class="gallery__img">
+            </figure>
+        </div>
+    </div>
     <!-- Nosotros-->
-    <div class="wrapper-inner">
+    <div class="wrapper-inner" id="nosotros">
         <div></div>
         <div class="person">
             <div>
@@ -212,7 +245,7 @@
             </div>
             <div class="divider"></div>
             <div class="name">Demetrio Contreras</div>
-            <div class="title">Ingeniero en Software</div>
+            <div class="title">Co-fundador y programador</div>
         </div>
         <div></div>
     </div>
