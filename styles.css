@@ -54,10 +54,6 @@
     height: 80px;
   }
 
-  .waves-class{
-      z-index: 999;
-  }
-  
   nav ul {
     overflow: hidden;
     clear: both;
@@ -177,24 +173,7 @@
     font-size: 4.6vmin;
   }
   
-  button {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-family: "Poppins", sans-serif;
-    background-color: #fff;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  button:hover {
-    background-color: black;
-    color: white;
-  }
+
   
   figure {
     text-align: center;
@@ -204,16 +183,7 @@
     margin: 3em auto 0;
     width: 80vw;
   }
-  
-  .waves {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    margin-bottom: -7px; /*Fix for safari gap*/
-    min-height: 100px;
-    max-height: 150px;
-  }
-  
+
   .video-content {
     padding-top: 80px;
     display: flex;
@@ -348,9 +318,23 @@
     font-size: 23px;
     color: black;
     align-self: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
   }
   
   .pricing-title > h2 {
+    font-weight: 600;
+  }
+  
+
+  .pricing-title3 {
+    font-size: 23px;
+    color: black;
+    align-self: center;
+    padding-top: 9rem;
+  }
+  
+  .pricing-title3 > h2 {
     font-weight: 600;
   }
   
@@ -371,6 +355,7 @@
     margin: 0 auto;
     display: flex;
     padding: 1em;
+    padding-bottom: 8rem;
   }
   
   .flex-item {
@@ -447,16 +432,7 @@
     font-weight: normal;
   }
   
-  .pricing-button {
-    background-color: white;
-    border: 1px solid red;
-    border-radius: 2em;
-    color: red;
-    cursor: pointer;
-    padding: .75em 1.5em;
-    font-size: 1em;
-  }
-  
+
   .subscribe-container {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -471,27 +447,7 @@
     flex-direction: row;
   }
   
-  #email {
-    width: 250px;
-    height: 40px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    border: 1px solid red;
-    text-decoration: none;
-  }
-  
-  #submit {
-    width: 100px;
-    height: 40px;
-    border: none;
-    background: red;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    border-radius: 0 5px 5px 0;
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-  }
+
   
   input[type="email"] {
     padding-left: 10px;
@@ -625,7 +581,7 @@
   width: 466px;
 }
 .divider {
-  background-color: #ca6060;
+  background-color: #FA5420;
   height: 1px;
   width: 160px;
 }
@@ -1578,7 +1534,7 @@ display: flex; padding: 20px;
   width: 4rem;
   height: 2px;
   position: absolute;
-  background: #C6D4DF;
+  background: #FA5420;
   display: block;
   left: 0;
   right: 0;
@@ -1617,7 +1573,7 @@ display: flex; padding: 20px;
 }
 
 .wrapper{
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 8rem;
 }
 
@@ -1998,4 +1954,11 @@ opacity: 0;
 }
 .cd-headline.clip b.is-visible {
 opacity: 1;
+}
+
+
+
+.container1{
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 }
