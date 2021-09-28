@@ -20,8 +20,9 @@
   .img-us{
     border-radius: 50%;
     width: 150px;
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
+
   
   .typewrite{
     font-family: "Poppins", sans-serif;
@@ -632,8 +633,32 @@
     margin-right: 20rem;
     width: 100vw;
   }
+
+
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: auto;
+    max-width: 100vw;
+  } 
     
 
+  #nav-bar{
+    padding-top: 2.5rem;
+  }
+
+  .this-is-it{
+    height: 23rem;
+    width: 98vw;
+    margin-top: -4rem;
+  }
+
+  
+  .this-is-it2{
+    height: 25rem;
+    width: 98vw;
+  }
  
   .hero-title-primary {
     font-family: "Poppins", sans-serif;
@@ -731,6 +756,8 @@
     transform: none;
   }
 
+  
+
 }
 
 
@@ -748,6 +775,12 @@
   padding-bottom: 2rem;
 }
 
+
+
+.this-is-it{
+  height: 41.8rem;
+  width: 98vw;
+}
 
   .img-init{
     z-index: 6;
@@ -1266,6 +1299,7 @@ font-size: 12px; }
   min-height: 100vh;
   background-color: #f3f3f3;
   }
+  
 }
 
 .ftC a {color: #808080; text-decoration: none; font-weight:bold;}
@@ -1302,11 +1336,12 @@ font-size: 12px; }
 }
  
 @media only screen and (max-width: 768px) {
-.orizcontatti {
-display: flex;
- flex-direction:column;
-justify-content: center;
-}}
+  .orizcontatti {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  }
+}
 
 @media only screen and (min-width: 768px) {
 .orizcontatti {
