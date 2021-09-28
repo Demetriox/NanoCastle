@@ -88,6 +88,25 @@
   .menu {
     margin-left: 15px;
   }
+ 
+  u {
+    text-decoration: none;
+    margin-top: 10px;
+    border-bottom: 4px solid black;
+  }
+  /* .nav-link{
+    padding-bottom: 10px;
+    border-bottom-color: #FA5420;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+  }d */
+  .nav-link:hover{
+    padding-bottom: 2px;
+    border-bottom-color: #FA5420;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    font-size: 1.03rem;
+  }d
   
   #header .menu-icon {
     cursor: pointer;
