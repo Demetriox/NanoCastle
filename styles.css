@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -55,6 +56,9 @@
     float: left;
     height: 80px;
   }
+
+
+ 
 
   nav ul {
     overflow: hidden;
@@ -353,6 +357,8 @@
     color: black;
     align-self: center;
     padding-top: 9rem;
+    text-align: center;
+    background-color: white;
   }
   
   .pricing-title3 > h2 {
@@ -537,7 +543,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 300px;
+  text-align: center;
 }
 .container-plus {
   border-radius: 50%;
@@ -676,17 +683,10 @@
   }
 
   .wrapper-inner{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-self: stretch;
-    align-items:flex-start;
-    padding-bottom: 6rem;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
     background-color: white;
-    /* align-items: center;
-    text-align: center; */
-    grid-template-columns: 1fr;
-    padding-top: 2rem;
   }
 
   .img-inicio{
@@ -722,17 +722,12 @@
   }
 
   .wrapper-inner{
-     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-self: stretch;
-    align-items:flex-start;
-   
+     display: grid;
+    justify-items: center;
+    place-items: center;
+    align-items: center;
     padding-bottom: 6rem;
     background-color: white;
-
-    /* text-align: center; */
-    grid-template-columns: 1fr;
   }
 
   .img-inicio{
@@ -766,14 +761,7 @@
   .menu-container {
     max-width: 100vw;
   } 
-  .person {
-  align-self: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  padding-bottom: 2rem;
-}
+
 
 
 
@@ -797,9 +785,10 @@
 
   .wrapper-inner{
     display: grid;
+    place-items: center;
     padding-bottom: 6rem;
     background-color: white;
-    grid-template-columns: 4fr 1fr 1fr 4fr;
+    grid-template-columns: 10fr 5fr 1fr 5fr 10fr;
   }img-
 
 
@@ -1043,9 +1032,10 @@
     .wrapper-inner{
       display: grid;
       padding-bottom: 6rem;
-      padding-top: 10rem;
+      padding-top: 3rem;
       background-color: white;
-      grid-template-columns: 4fr 1fr 1fr 4fr;
+      grid-template-columns: 6fr 5fr 1fr 5fr 6fr;
+      text-align: center;
     }img-
 
 
