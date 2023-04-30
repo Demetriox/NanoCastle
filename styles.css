@@ -560,7 +560,6 @@ input[type="email"] {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 600px;
   text-align: center;
 }
 
@@ -676,7 +675,6 @@ input[type="email"] {
     font-size: 18px;
     font-style: italic;
     margin-top: 4px;
-    width: 300px;
   }
 
   .top {
@@ -2156,4 +2154,22 @@ xclip
 .container1 {
   padding-top: 7rem;
   padding-bottom: 5rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .img-inicio {
+    display: none;
+  }
+
+  .title {
+    width: 250px;
+  }
+
+
+  .title-remove {
+    display: none;
+  }
 }
