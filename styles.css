@@ -119,7 +119,12 @@ u {
   border-bottom-color: #FA5420;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  font-size: 1.03rem;
+  font-size: 1.3rem;
+}
+
+
+.nav-link {
+  font-size: 1.3rem;
 }
 
 d #header .menu-icon {
@@ -667,7 +672,10 @@ input[type="email"] {
     flex-wrap: wrap;
   }
 
-
+  .container1 {
+    font-size: 10px;
+    display: none;
+  }
 
   .title {
     color: #6e6e6e;
@@ -2152,6 +2160,7 @@ xclip
 
 
 .container1 {
+
   padding-top: 7rem;
   padding-bottom: 5rem;
 }
@@ -2163,6 +2172,18 @@ xclip
   .img-inicio {
     display: none;
   }
+
+  #nav-bar {
+    margin-right: 100px;
+  }
+
+  .menu {
+    margin-right: 4rem;
+    margin-top: 30px;
+  }
+
+
+
 
   .title {
     width: 250px;
