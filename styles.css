@@ -2194,3 +2194,10 @@ xclip
     display: none;
   }
 }
+
+
+
+.image-width {
+  height: 280px;
+  padding-bottom: 20%;
+}
